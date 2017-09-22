@@ -22,7 +22,6 @@ $(document).ready(function() {
         }
       });
     }
-     //stop link behavior
      return false;
   });
      $('ul.gallery li').on('mouseenter', function() {
@@ -30,8 +29,8 @@ $(document).ready(function() {
        var title = $(this).children().data('title');
        var desc = $(this).children().data('desc');
 
-       //validation
-       if(desc === undefined) {
+      //  validation
+       if(desc === "") {
          desc = "Click To Enlarge";
        }
        if(title === "") {

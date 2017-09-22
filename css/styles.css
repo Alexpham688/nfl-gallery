@@ -28,12 +28,11 @@ header a {
   font-size: 2.0em;
 }
 nav {
-  float: right;
-  width: 78%;
-  text-align: center;
+  float:right;
+  width: 80%;
 }
 nav ul {
-  float: right;
+  float: left;
   padding: 5px;
 }
 nav li {
@@ -91,8 +90,8 @@ footer {
   padding-top: 10px;
 }
 .overlay {
-  display: none;
-  background: url('/images/glass.png') no-repeat
+  display:none;
+  background-image: url('images/glass.png')
   top center;
   color: #fff;
   position: absolute;
@@ -106,7 +105,7 @@ footer {
   box-sizing: border-box;
   pointer-events: none;
 }
-img.glass {
+image.glass {
   width: 20px;
   height: 20px;
 }
